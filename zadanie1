@@ -1,0 +1,79 @@
+1. Структурное программирование.
+Пример задания: Даны натуральные числа n и k. Составить программу вычисления выражения 1k + 2k +...+ nk. Разработать меню программы. Пункты меню: ввод данных, обработка, просмотр результатов, выход.
+
+using System;
+
+namespace ConsoleApp10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 0, k = 0;
+            bool isDataEntered = false;
+
+            while (true)
+            {
+                // Меню программы
+                Console.WriteLine("1. Ввод данных");
+                Console.WriteLine("2. Обработка данных");
+                Console.WriteLine("3. Просмотр результата");
+                Console.WriteLine("4. Выход");
+                Console.WriteLine();
+
+                Console.Write("Выберите действие: ");
+
+                // Обработка выбора пользователя
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        // Ввод данных
+                        Console.Write("Введите значение n: ");
+                        n = int.Parse(Console.ReadLine());
+
+                        Console.Write("Введите значение k: ");
+                        k = int.Parse(Console.ReadLine());
+
+                        isDataEntered = true;
+                        Console.WriteLine("\nДанные сохранены.\n");
+                        break;
+
+                    case "2":
+                        // Обработка данных
+                        if (isDataEntered)
+                            Console.WriteLine($"\nСумма равна {CalculateSum(n, k)}.\n");
+                        else
+                            Console.WriteLine("\nДанные еще не введены.\n");
+                        break;
+
+                    case "3":
+                        // Просмотр результата
+                        if (isDataEntered)
+                            Console.WriteLine($"\nСумма равна {CalculateSum(n, k)}.\n");
+                        else
+                            Console.WriteLine("\nДанные еще не введены.\n");
+                        break;
+
+                    case "4":
+                        // Выход из программы
+                        Console.WriteLine("\nДо свидания!");
+                        return;
+
+                    default:
+                        Console.WriteLine("\nНеправильный ввод.\n");
+                        break;
+                }
+            }
+        }
+
+        static int CalculateSum(int n, int k)
+        {
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                sum += (int)Math.Pow(i, k);
+            }
+            return sum;
+        }
+    }
+}
