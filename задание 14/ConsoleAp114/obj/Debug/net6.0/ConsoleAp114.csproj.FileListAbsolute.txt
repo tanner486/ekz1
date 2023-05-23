@@ -1,0 +1,15 @@
+G:\ConsoleAp114\bin\Debug\net6.0\ConsoleAp114.exe
+G:\ConsoleAp114\bin\Debug\net6.0\ConsoleAp114.deps.json
+G:\ConsoleAp114\bin\Debug\net6.0\ConsoleAp114.runtimeconfig.json
+G:\ConsoleAp114\bin\Debug\net6.0\ConsoleAp114.dll
+G:\ConsoleAp114\bin\Debug\net6.0\ConsoleAp114.pdb
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.csproj.AssemblyReference.cache
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.GeneratedMSBuildEditorConfig.editorconfig
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.AssemblyInfoInputs.cache
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.AssemblyInfo.cs
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.csproj.CoreCompileInputs.cache
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.dll
+G:\ConsoleAp114\obj\Debug\net6.0\refint\ConsoleAp114.dll
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.pdb
+G:\ConsoleAp114\obj\Debug\net6.0\ConsoleAp114.genruntimeconfig.cache
+G:\ConsoleAp114\obj\Debug\net6.0\ref\ConsoleAp114.dll

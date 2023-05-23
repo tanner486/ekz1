@@ -1,0 +1,8 @@
+G:\ConsoleApp7\bin\Debug\ConsoleApp7.exe.config
+G:\ConsoleApp7\bin\Debug\ConsoleApp7.exe
+G:\ConsoleApp7\bin\Debug\ConsoleApp7.pdb
+G:\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.AssemblyReference.cache
+G:\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.SuggestedBindingRedirects.cache
+G:\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.CoreCompileInputs.cache
+G:\ConsoleApp7\obj\Debug\ConsoleApp7.exe
+G:\ConsoleApp7\obj\Debug\ConsoleApp7.pdb
